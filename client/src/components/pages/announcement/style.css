@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.announcement-main {
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.announcement-main > ul {
+  user-select: 0;
+  list-style-type: none !important;
+}
+
+.announcement-main > ul > li:before {
+  content: "campaign";
+  font-family: "Material Icons";
+  font-size: 30px;
+  vertical-align: -20%;
+  color: #cf6400;
+  margin-right: 5px;
+}
+
+.announcement-main > ul > li {
+  user-select: none !important;
+  font-size: 1.2rem;
+  font-family: "Origin Tech Demo";
+  -webkit-text-stroke: 1px transparent;
+}
+
+.more-link {
+  color: #cf6400;
+  font-size: 1.5rem;
+}
+
+.more-link:hover {
+  color: #b7b7b7;
+}
